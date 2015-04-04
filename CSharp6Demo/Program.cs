@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// <copyright file="Program.cs" company="Benedict W. Hazel">
+//     Benedict W. Hazel, 2015
+// </copyright>
+// <author>Benedict W. Hazel</author>
+// <summary>
+//     Program: Class for the main program logic.
+// </summary>
 
-namespace CSharp6Demo
+namespace BWHazel.Experiments.CSharp6Demo
 {
-	class Program
+	/// <summary>
+	/// Main program logic.
+	/// </summary>
+	public class Program
 	{
-		static void Main(string[] args)
+		/// <summary>
+		/// Program entry point.
+		/// </summary>
+		/// <param name="args">The command-line arguments.</param>
+		public static void Main(string[] args)
 		{
 		}
 	}

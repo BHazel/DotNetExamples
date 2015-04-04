@@ -1,17 +1,24 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿// <copyright file="AssemblyInfo.cs" company="Benedict W. Hazel">
+//     Benedict W. Hazel, 2015
+// </copyright>
+// <author>Benedict W. Hazel</author>
+// <summary>
+//     AssemblyInfo: Information on the CSharp6Demo assembly.
+// </summary>
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CSharp6Demo")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Demos of the new features introduced in C# 6.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Benedict W. Hazel")]
 [assembly: AssemblyProduct("CSharp6Demo")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Benedict W. Hazel 2015")]
+[assembly: AssemblyTrademark("None")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
