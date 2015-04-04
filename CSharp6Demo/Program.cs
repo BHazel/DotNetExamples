@@ -8,6 +8,9 @@
 
 namespace BWHazel.Experiments.CSharp6Demo
 {
+	using System;
+	using BWHazel.Experiments.CSharp6Demo.CS6;
+
 	/// <summary>
 	/// Main program logic.
 	/// </summary>
@@ -19,6 +22,25 @@ namespace BWHazel.Experiments.CSharp6Demo
 		/// <param name="args">The command-line arguments.</param>
 		public static void Main(string[] args)
 		{
+			// Program.RunCS5Examples();
+			Program.RunCS6Examples();
+
+			Console.ReadKey();
+		}
+
+		/// <summary>
+		/// Runs the C# 5 examples.
+		/// </summary>
+		public static void RunCS5Examples()
+		{
+		}
+
+		/// <summary>
+		/// Runs the C# 6 examples.
+		/// </summary>
+		public static void RunCS6Examples()
+		{
+			UsingStatic.Run();
 		}
 	}
 }
