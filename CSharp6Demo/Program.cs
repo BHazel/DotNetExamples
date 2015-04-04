@@ -23,8 +23,8 @@ namespace BWHazel.Experiments.CSharp6Demo
 		/// <param name="args">The command-line arguments.</param>
 		public static void Main(string[] args)
 		{
-			Program.RunCS5Examples();
-			// Program.RunCS6Examples();
+			// Program.RunCS5Examples();
+			Program.RunCS6Examples();
 
 			Console.ReadKey();
 		}
@@ -46,7 +46,8 @@ namespace BWHazel.Experiments.CSharp6Demo
 		{
 			// BWHazel.Experiments.CSharp6Demo.CS6.UsingStatic.Run();
 			// BWHazel.Experiments.CSharp6Demo.CS6.AutoProperties.Run();
-			BWHazel.Experiments.CSharp6Demo.CS6.DictionaryInitialisers.Run();
+			// BWHazel.Experiments.CSharp6Demo.CS6.DictionaryInitialisers.Run();
+			BWHazel.Experiments.CSharp6Demo.CS6.ExceptionFilters.Run();
 		}
 	}
 }
