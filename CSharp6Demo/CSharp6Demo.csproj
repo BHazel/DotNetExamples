@@ -49,6 +49,7 @@
     <Compile Include="CS6\AutoProperties.cs" />
     <Compile Include="CS6\DictionaryInitialisers.cs" />
     <Compile Include="CS6\ExceptionFilters.cs" />
+    <Compile Include="CS6\NameOf.cs" />
     <Compile Include="CS6\UsingStatic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
