@@ -45,8 +45,10 @@
     <Compile Include="CS5\AutoProperties.cs" />
     <Compile Include="CS5\DictionaryInitialisers.cs" />
     <Compile Include="CS5\ExceptionFilters.cs" />
+    <Compile Include="CS5\Models\Address.cs" />
     <Compile Include="CS5\Models\Customer.cs" />
     <Compile Include="CS5\NameOf.cs" />
+    <Compile Include="CS5\NullConditional.cs" />
     <Compile Include="CS5\StringInterpolation.cs" />
     <Compile Include="CS5\UsingStatic.cs" />
     <Compile Include="CS6\AutoProperties.cs" />

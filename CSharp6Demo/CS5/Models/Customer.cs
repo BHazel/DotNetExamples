@@ -50,6 +50,11 @@ namespace BWHazel.Experiments.CSharp6Demo.CS5.Models
 		public string FullName { get; private set; }
 
 		/// <summary>
+		/// Gets or sets the address.
+		/// </summary>
+		public Address Address { get; set; }
+
+		/// <summary>
 		/// Gets or sets the birth date.
 		/// </summary>
 		public DateTime BirthDate { get; set; }
