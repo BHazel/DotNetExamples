@@ -66,6 +66,11 @@ namespace BWHazel.Experiments.CSharp6Demo
 					continue;
 				}
 
+				if (key.StartsWith("Demo"))
+				{
+					continue;
+				}
+
 				if (ToBoolean(ConfigurationManager.AppSettings[key]) == true)
 				{
 					WriteLine($"*** Running Demo {key}... ***");

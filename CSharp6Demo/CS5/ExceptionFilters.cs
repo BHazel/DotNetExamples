@@ -9,6 +9,7 @@
 namespace BWHazel.Experiments.CSharp6Demo.CS5
 {
 	using System;
+	using System.Configuration;
 
 	/// <summary>
 	/// Demonstrates he C# 5 equivalent of exception filters.
@@ -20,9 +21,10 @@ namespace BWHazel.Experiments.CSharp6Demo.CS5
 		/// </summary>
 		public static void Run()
 		{
+			string exceptionMessage = ConfigurationManager.AppSettings["DemoExceptionFiltersExceptionMessage"];
 			try
 			{
-				throw new Exception("Error");
+				throw new Exception(exceptionMessage);
 			}
 			catch (Exception ex)
 			{

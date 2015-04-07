@@ -10,6 +10,8 @@ namespace BWHazel.Experiments.CSharp6Demo.CS6
 {
 	using System;
 	using static System.Console;
+	using System.Configuration;
+	using static System.Configuration.ConfigurationManager;
 
 	/// <summary>
 	/// Demonstrates exception filters.
@@ -21,10 +23,11 @@ namespace BWHazel.Experiments.CSharp6Demo.CS6
 		/// </summary>
 		public static void Run()
 		{
-			try
+			string exceptionMessage = ConfigurationManager.AppSettings["DemoExceptionFiltersExceptionMessage"];
+            try
 			{
-				throw new Exception("Error");
-			}
+				throw new Exception(exceptionMessage);
+            }
 			catch (Exception ex) when (ex.Message == "Error")
 			{
 				WriteLine("A terrible error has occurred!");
