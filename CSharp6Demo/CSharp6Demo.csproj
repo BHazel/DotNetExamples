@@ -56,6 +56,7 @@
     <Compile Include="CS5\StringInterpolation.cs" />
     <Compile Include="CS5\UsingStatic.cs" />
     <Compile Include="CS6\AutoProperties.cs" />
+    <Compile Include="CS6\CatchAwait.cs" />
     <Compile Include="CS6\DictionaryInitialisers.cs" />
     <Compile Include="CS6\ExceptionFilters.cs" />
     <Compile Include="CS6\ExpressionsAndStructs.cs" />
