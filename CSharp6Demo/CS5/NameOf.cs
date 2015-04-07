@@ -9,8 +9,6 @@
 namespace BWHazel.Experiments.CSharp6Demo.CS5
 {
 	using System;
-	using System.Linq;
-	using System.Reflection;
 
 	/// <summary>
 	/// Demonstrates the C# 5 equivalent of the "nameof" expression.

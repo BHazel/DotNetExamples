@@ -16,6 +16,9 @@ namespace BWHazel.Experiments.CSharp6Demo.CS6
 	/// </summary>
 	public static class AutoProperties
 	{
+		/// <summary>
+		/// Creates a customer and prints its properties on the console.
+		/// </summary>
 		public static void Run()
 		{
 			Customer customer = new Customer("Benedict", "Hazel");

@@ -10,11 +10,16 @@ namespace BWHazel.Experiments.CSharp6Demo.CS6
 {
 	using System;
 	using static System.Console;
-	using System.Globalization;
 	using BWHazel.Experiments.CSharp6Demo.CS6.Models;
 
+	/// <summary>
+	/// Demonstrates string interpolation.
+	/// </summary>
 	public static class StringInterpolation
 	{
+		/// <summary>
+		/// Creates a customer and prints its properties on the console.
+		/// </summary>
 		public static void Run()
 		{
 			Write("Enter customer first name: ");

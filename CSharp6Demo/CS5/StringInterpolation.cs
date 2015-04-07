@@ -9,11 +9,16 @@
 namespace BWHazel.Experiments.CSharp6Demo.CS5
 {
 	using System;
-	using System.Globalization;
 	using BWHazel.Experiments.CSharp6Demo.CS5.Models;
 
+	/// <summary>
+	/// Demonstrates the C# 5 equivalent of string interpolation.
+	/// </summary>
 	public static class StringInterpolation
 	{
+		/// <summary>
+		/// Creates a customer and prints its properties on the console.
+		/// </summary>
 		public static void Run()
 		{
 			Console.Write("Enter customer first name: ");
