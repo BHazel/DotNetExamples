@@ -63,6 +63,10 @@ let wavelengthFromFrequency (frequency:float<1/s>) = speedOfLight / frequency
 /// </summary>
 let wavelengthFromMass = energyFromMass >> frequencyFromEnergy >> wavelengthFromFrequency
 
+/// <summary>
+/// Program entry point,
+/// </summary>
+/// <param name="argv">The command-line arguments.</param>
 [<EntryPoint>]
 let main argv = 
     let photonMass = 4.420<kg> * (10. ** -36.)
